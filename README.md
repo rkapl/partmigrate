@@ -1,4 +1,4 @@
-# LVM Partition Type migration
+# LVM Partition Type Migration
 
 Allows offline migration between otherwise unsupported LVM disk types without consuming too much extra
 space. E.g. restriping 3-stripes -> 4 stripes.
