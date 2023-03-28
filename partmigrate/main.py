@@ -1,7 +1,11 @@
 import argparse
 import progressbar
-import time
 import dataclasses
+import sys
+import os.path
+
+if __name__ == '__main__':
+    sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from partmigrate.log import Log, JobInfo
 from partmigrate.lvm import Lvm
